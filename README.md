@@ -8,6 +8,8 @@ It's a quite inefficient script but on my machine it parses about 1500 record pe
 
 It's a php script which runs from the command line and uses PDO to migrate records from database to database, including tags and customized bookmarks titles.
 
+It also checks for duplicates (it's idempotent) and filters all the URL using a protocol different from ftp,http,https.
+
 No additional libraries are required. If you run a common LAMP you should be ready to go. Works with php 5 or 7 out of the box.
 
 ## Usage
