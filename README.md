@@ -2,7 +2,7 @@
 
 This is a very basic PHP script written to migrate bookmarks from [Unmark](https://github.com/plainmade/unmark) to [Nextcloud Bookmarks](https://github.com/nextcloud/bookmarks).
 
-It's a quite inefficient script but on my machine it parses about 1500 record per minutes which I suppose it's fast enough for most of the cases.
+It's a quite inefficient script but on my machine it parses about 1500 records per minute which I suppose is fast enough for most of the cases.
 
 ## How it works
 
